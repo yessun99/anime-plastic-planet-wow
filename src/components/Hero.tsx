@@ -17,7 +17,7 @@ const Hero = ({ className }: { className?: string }) => {
               The Invisible Threat: <span className="text-plastic-dark">Microplastics</span>
             </h1>
             <p className="text-xl font-anime text-white mb-8">
-              Exploring how tiny plastic particles are invading our oceans, bodies, and future - through the lens of anime and memes!
+              Exploring how tiny plastic particles are invading our oceans, bodies, and future - through the lens of our beautiful planet!
             </p>
             <div className="flex gap-4">
               <a href="#about" className="bg-plastic hover:bg-plastic-dark text-white font-bold font-anime py-3 px-6 rounded-lg transition-colors duration-300 comic-border transform hover:-translate-y-1 hover:scale-105">
@@ -31,8 +31,8 @@ const Hero = ({ className }: { className?: string }) => {
           
           <div className="w-full max-w-md comic-border rounded-xl overflow-hidden bg-white p-3 rotate-3">
             <img 
-              src="https://i.imgur.com/DdPUhAL.png" 
-              alt="Anime character looking worried about plastic pollution" 
+              src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21" 
+              alt="Ocean wave with visible pollution" 
               className="w-full rounded-lg"
             />
             <p className="text-center italic text-sm mt-2 font-anime">

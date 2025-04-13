@@ -36,37 +36,37 @@ const SolutionsSection = ({ className }: { className?: string }) => {
           
           <div className="comic-border rounded-xl overflow-hidden">
             <img 
-              src="https://i.imgur.com/cHRHDly.jpg" 
-              alt="Anime characters cleaning up beach" 
+              src="https://images.unsplash.com/photo-1458668383970-8ddd3927deed" 
+              alt="Mountain landscape" 
               className="w-full h-full object-cover"
             />
           </div>
         </div>
         
         <div className="bg-ocean-light p-8 rounded-xl comic-border mb-16">
-          <h3 className="text-3xl font-heading mb-8 text-center text-ocean-dark">Be the Hero Our Oceans Need!</h3>
+          <h3 className="text-3xl font-heading mb-8 text-center text-ocean-dark">Be the Hero Our Planet Needs!</h3>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
                 title: "Refuse",
                 description: "Say no to single-use plastics and unnecessary packaging",
-                image: "https://i.imgur.com/ZJpF3Nq.jpg"
+                image: "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3"
               },
               {
                 title: "Reduce",
                 description: "Minimize your overall plastic consumption when possible",
-                image: "https://i.imgur.com/eDRHmpB.jpg"
+                image: "https://images.unsplash.com/photo-1472396961693-142e6e269027"
               },
               {
                 title: "Reuse",
                 description: "Use durable alternatives that can be used many times",
-                image: "https://i.imgur.com/mqwPGnb.jpg"
+                image: "https://images.unsplash.com/photo-1426604966848-d7adac402bff"
               },
               {
                 title: "Recycle",
                 description: "Properly sort and recycle all eligible plastic waste",
-                image: "https://i.imgur.com/0M1DCGe.jpg"
+                image: "https://images.unsplash.com/photo-1452960962994-acf4fd70b632"
               }
             ].map((action, index) => (
               <div key={index} className="bg-white p-6 rounded-lg comic-border transform hover:scale-105 transition-transform duration-300">
@@ -87,8 +87,8 @@ const SolutionsSection = ({ className }: { className?: string }) => {
           
           <div className="inline-block comic-border rounded-lg overflow-hidden mb-8">
             <img 
-              src="https://i.imgur.com/z0njOKc.jpg" 
-              alt="Anime meme about saving the ocean" 
+              src="https://images.unsplash.com/photo-1485833077593-4278bba3f11f" 
+              alt="Deer in natural habitat" 
               className="w-full max-w-lg"
             />
           </div>

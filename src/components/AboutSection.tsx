@@ -13,8 +13,8 @@ const AboutSection = ({ className }: { className?: string }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-20">
           <div className="comic-border rounded-xl overflow-hidden">
             <img 
-              src="https://i.imgur.com/4j5pHm5.jpg" 
-              alt="Anime style illustration of microplastics" 
+              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" 
+              alt="Natural water body potentially containing microplastics" 
               className="w-full h-full object-cover"
             />
           </div>
@@ -46,22 +46,22 @@ const AboutSection = ({ className }: { className?: string }) => {
               {
                 title: "Creation",
                 description: "Plastics are manufactured and products are used",
-                image: "https://i.imgur.com/vCkxJcZ.jpg"
+                image: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843"
               },
               {
                 title: "Breakdown",
                 description: "Products degrade into smaller and smaller pieces",
-                image: "https://i.imgur.com/EZ21kQs.jpg"
+                image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716"
               },
               {
                 title: "Dispersion",
                 description: "Microplastics spread through water, air, and soil",
-                image: "https://i.imgur.com/y3lrfaF.jpg"
+                image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb"
               },
               {
                 title: "Consumption",
                 description: "We inadvertently consume microplastics every day",
-                image: "https://i.imgur.com/rZlmyOq.jpg"
+                image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e"
               }
             ].map((step, index) => (
               <div key={index} className="bg-white p-4 rounded-lg comic-border transform hover:scale-105 transition-transform duration-300">
@@ -80,8 +80,8 @@ const AboutSection = ({ className }: { className?: string }) => {
         <div className="mt-16 text-center">
           <div className="inline-block comic-border rounded-lg overflow-hidden transform rotate-2">
             <img 
-              src="https://i.imgur.com/qbdXRqD.jpg" 
-              alt="Anime meme about microplastics" 
+              src="https://images.unsplash.com/photo-1518495973542-4542c06a5843" 
+              alt="Sunlight filtering through trees" 
               className="w-full max-w-md"
             />
           </div>

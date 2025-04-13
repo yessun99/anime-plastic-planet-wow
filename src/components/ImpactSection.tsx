@@ -15,19 +15,19 @@ const ImpactSection = ({ className }: { className?: string }) => {
             {
               title: "Marine Life",
               description: "Microplastics are ingested by marine animals, causing physical harm and toxic effects",
-              image: "https://i.imgur.com/G1pIpAD.jpg",
+              image: "https://images.unsplash.com/photo-1465379944081-7f47de8d74ac",
               color: "bg-ocean-dark"
             },
             {
               title: "Human Health",
               description: "We consume microplastics through food, water, and air, with potential health risks",
-              image: "https://i.imgur.com/GdCKuEu.jpg",
+              image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9",
               color: "bg-plastic"
             },
             {
               title: "Ecosystems",
               description: "Microplastics disrupt ecosystems and can transport invasive species",
-              image: "https://i.imgur.com/0CPcTLz.jpg",
+              image: "https://images.unsplash.com/photo-1501854140801-50d01698950b",
               color: "bg-ocean-dark"
             }
           ].map((impact, index) => (
@@ -52,8 +52,8 @@ const ImpactSection = ({ className }: { className?: string }) => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="flex gap-4 items-center p-4 bg-ocean-light rounded-lg comic-border">
               <img 
-                src="https://i.imgur.com/EPEGLPd.jpg" 
-                alt="Anime character shocked" 
+                src="https://images.unsplash.com/photo-1493962853295-0fd70327578a" 
+                alt="Mountain landscape" 
                 className="w-24 h-24 object-cover rounded-full comic-border"
               />
               <div>
@@ -64,8 +64,8 @@ const ImpactSection = ({ className }: { className?: string }) => {
             
             <div className="flex gap-4 items-center p-4 bg-ocean-light rounded-lg comic-border">
               <img 
-                src="https://i.imgur.com/dTi3BQq.jpg" 
-                alt="Anime character concerned" 
+                src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86" 
+                alt="Forest landscape" 
                 className="w-24 h-24 object-cover rounded-full comic-border"
               />
               <div>
@@ -76,8 +76,8 @@ const ImpactSection = ({ className }: { className?: string }) => {
             
             <div className="flex gap-4 items-center p-4 bg-ocean-light rounded-lg comic-border">
               <img 
-                src="https://i.imgur.com/tJXg3zK.jpg" 
-                alt="Anime character scared" 
+                src="https://images.unsplash.com/photo-1517022812141-23620dba5c23" 
+                alt="Sheep herd on grassland" 
                 className="w-24 h-24 object-cover rounded-full comic-border"
               />
               <div>
@@ -88,8 +88,8 @@ const ImpactSection = ({ className }: { className?: string }) => {
             
             <div className="flex gap-4 items-center p-4 bg-ocean-light rounded-lg comic-border">
               <img 
-                src="https://i.imgur.com/XwZjnYl.jpg" 
-                alt="Anime character determined" 
+                src="https://images.unsplash.com/photo-1439886183900-e79ec0057170" 
+                alt="Deer in forest" 
                 className="w-24 h-24 object-cover rounded-full comic-border"
               />
               <div>
@@ -103,8 +103,8 @@ const ImpactSection = ({ className }: { className?: string }) => {
         <div className="mt-16 text-center">
           <div className="inline-block bg-white comic-border rounded-lg p-4 transform -rotate-2">
             <img 
-              src="https://i.imgur.com/j3DRJvI.jpg" 
-              alt="Anime meme about ocean pollution" 
+              src="https://images.unsplash.com/photo-1504893524553-b855bce32c67" 
+              alt="River and rock formation" 
               className="w-full max-w-md rounded-lg"
             />
             <p className="font-anime text-sm mt-2">
